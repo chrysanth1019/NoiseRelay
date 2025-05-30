@@ -24,6 +24,9 @@ sudo apt install git build-essential libtool bison flex autoconf automake pkg-co
 ---
 ## Clone repository
 ```bash
-git clone --recurse-submodules https://github.com/chrysanth1019/NoiseRelay.git
+sudo git clone --recurse-submodules https://github.com/chrysanth1019/NoiseRelay.git
+cd NoiseRelay
+sudo chmod 777 build.sh
+./build.sh
 ```
 
