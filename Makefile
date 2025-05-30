@@ -1,14 +1,14 @@
 # Compiler and flags
 CC = gcc
 CFLAGS = -Wall -g -O2 -pthread \
-  -DPACKAGE_NAME=\"noise-c\" \
-  -DPACKAGE_TARNAME=\"noise-c\" \
-  -DPACKAGE_VERSION=\"0.0.1\" \
-  -DPACKAGE_STRING=\"noise-c 0.0.1\" \
-  -DPACKAGE_BUGREPORT=\"\" \
-  -DPACKAGE_URL=\"\" \
-  -DPACKAGE=\"noise-c\" \
-  -DVERSION=\"0.0.1\" \
+  -DPACKAGE_NAME="noise-c" \
+  -DPACKAGE_TARNAME="noise-c" \
+  -DPACKAGE_VERSION="0.0.1" \
+  -DPACKAGE_STRING="noise-c 0.0.1" \
+  -DPACKAGE_BUGREPORT="" \
+  -DPACKAGE_URL="" \
+  -DPACKAGE="noise-c" \
+  -DVERSION="0.0.1" \
   -DYYTEXT_POINTER=1 \
   -DHAVE_STDIO_H=1 \
   -DHAVE_STDLIB_H=1 \
